@@ -1,34 +1,34 @@
-# skill-evaluator — Should I Install This?
+# skill-evaluator — Should I Install This? 🤔
 
 I have 44 skills in my Claude Code setup. Meeting notes, content drafts, travel perks, PM frameworks — you name it. I built most of them myself.
 
-The problem? Every week someone on X posts a new skill repo with a hundred stars and I feel the pull. *Maybe this one is the thing I've been missing.* So I'd install it, forget about it, and move on to the next one. Classic skill hoarding.
+The problem? Every week someone on X posts a new skill repo with a hundred stars and I feel the pull. *Maybe this one is the thing I've been missing.* So I'd install it, forget about it, and move on to the next one. Classic skill hoarding. 😅
 
-At some point I stopped and asked: is any of this actually making me better? Honest answer — I had no idea.
+At some point I stopped and asked myself — is any of this actually making me better? Honest answer? I had no idea.
 
-So I built a skill that evaluates other skills before I install them. **Paste a link, get a guided walkthrough.** No code, no technical knowledge needed. It just walks you through the questions you should be asking but probably aren't.
+So I built a skill that evaluates other skills before I install them. You just paste a link and it walks you through everything — what the skill does, whether it's relevant to you, whether it's safe, and whether it's actually worth keeping. **No code, no technical knowledge.** Just follow along.
 
-## What it actually does
+## How it works
 
-Five steps. Each one earns its place.
+It's a 5-step guided process. You go through them one at a time:
 
-| Step | What happens |
-|---|---|
-| **1. Understand** | Fetches the skill, gives you a plain-English summary, and immediately tells you if it's relevant to *your* workflow — not just "what does this do" but "does this matter to me" |
-| **2. Compare & Upgrade** | This is the one that changed everything. If you already have something similar, it compares them side by side and tells you what to steal from the new skill to make yours better |
-| **3. Trust Check** | Especially if you're on a work laptop — does this skill run shell commands? Touch sensitive files? Green/yellow/red, no guessing |
-| **4. Decide & Act** | Scorecard + clear paths: install it all, cherry-pick the good stuff, or skip guilt-free |
-| **5. Test Drive** | Run it on something real, right now, before it becomes shelfware |
+| | Step | What happens |
+|---|---|---|
+| 1️⃣ | **Understand** | Fetches the skill and gives you a plain-English summary. But here's the key — it doesn't just tell you *what* the skill does. It tells you if it matters to *you*, based on your workflow and what you already have |
+| 2️⃣ | **Compare & Upgrade** | This is the one that changed everything for me 🔥 If you already have something similar, it compares them side by side and shows you what to steal from the new skill to make yours better. Overlap isn't a reason to skip — it's an upgrade opportunity |
+| 3️⃣ | **Trust Check** | Especially if you're on a work laptop! Does this skill run shell commands? Touch sensitive files? You get a simple green/yellow/red rating. No guessing |
+| 4️⃣ | **Decide & Act** | Scorecard + clear paths: install it all, cherry-pick the good stuff, or skip guilt-free |
+| 5️⃣ | **Test Drive** | You immediately run the skill on something real — a 5-minute exercise, not a full project. This is what separates curation from hoarding |
 
 ## Why I built this
 
-Here's what I realized: **the value isn't in finding more skills. It's in getting more out of fewer skills.**
+Here's the thing — **most of the value came from Step 2, not Step 4.**
 
-I tested this on my own meeting notes skill. Found a PM repo with a similar one. Instead of installing theirs alongside mine, the comparison showed me three features theirs did better — tracking participants, logging disagreements, auto-saving to a file. So I upgraded mine. One skill, now better, instead of two skills competing for attention.
+I expected this to help me decide what to install. Instead, it mostly helped me improve what I already had. The overlapping skills were the most valuable! Not because I installed them, but because I learned from them.
 
-That's the whole philosophy. Curation over collection. Study what others build, steal what works, sharpen what you already have. Kaizen for your AI toolkit.
+Real example: I found a PM repo with a meeting notes skill. I already had my own. Instead of installing a second one, the comparison showed me three features theirs did better — tracking participants, logging disagreements, auto-saving to a file. So I just upgraded mine with those three things. One skill, now better. Zero clutter.
 
-The marketplaces handle discovery. This skill handles the part that actually matters — figuring out if something is worth your time.
+That's the mentality. Don't collect more tools — study what others build, steal what works, sharpen what you already have. Kaizen for your AI toolkit ✨
 
 ## Install
 
@@ -46,7 +46,7 @@ Copy `SKILL.md` to `.cursor/skills/skill-evaluator/SKILL.md` in your project.
 
 ### Other AI assistants
 
-The file follows the open SKILL.md standard — copy it to wherever your tool reads skills from.
+It follows the open SKILL.md standard — just copy the file to wherever your tool reads skills from.
 
 ## How to use it
 
@@ -56,11 +56,11 @@ Paste a link to any skill, plugin, or GitHub repo and say something like:
 - "How does this compare to what I already have?"
 - "Is this relevant to my workflow?"
 
-It takes over from there.
+It takes over from there. Step by step, one at a time. You drive the pace.
 
-## Where to find skills
+## Where to find skills 🔍
 
-If you're looking for skills to evaluate, here's where most of them live:
+If you're not sure where to look, here are the big skill marketplaces:
 
 | Marketplace | Size | Link |
 |---|---|---|
@@ -69,6 +69,8 @@ If you're looking for skills to evaluate, here's where most of them live:
 | Skill For That | 10,000+ | [skillforthat.com](https://skillforthat.com) |
 | PolySkill | LLM-agnostic | [polyskill.ai](https://polyskill.ai) |
 | Claude Code Plugin Directory | 50+ curated | [claudecodeplugin.com](https://www.claudecodeplugin.com) |
+
+Discovery is their job. Figuring out if any of it is actually worth your time? That's what this skill is for.
 
 ## License
 
