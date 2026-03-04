@@ -45,9 +45,9 @@ Format:
 >
 > Here's what I know about you: [Brief summary — their role, what they work on, their tools]. This skill maps to your work because [specific connections]. [If partial or mismatch, explain what doesn't fit.]
 
-If it's a strong or partial match, **don't wait** — go straight into the overlap check. Only pause here if it's a mismatch and you want to confirm whether to continue.
+**⛔ STOP HERE.** Present only Step 1. Do NOT continue to Step 2 until the user responds. Ask: *"Does this sound relevant so far? Want me to check how it compares to what you already have?"*
 
-**Platform note:** This skill works in both Cursor and Claude Code. In Claude Code, the agent doesn't naturally pause between steps, so combine steps 1-3 into a single response when the assessment is clear. Only pause at decision points (the verdict, the test drive).
+This pause is critical — it gives the user a chance to bail early or ask questions before you invest time comparing skills.
 
 ---
 
@@ -87,7 +87,7 @@ Read BOTH skill files in full. Then present a detailed comparison:
 
 The goal is not "install or skip" — it's **"make what you already have better by learning from what's out there."** Overlap is an upgrade opportunity, not a blocker.
 
-After presenting, ask: *"Want me to upgrade your existing skill with these improvements?"*
+**⛔ STOP HERE.** Present only Step 2. Do NOT continue to Step 3 until the user responds. Ask: *"Want me to upgrade your existing skill with these improvements? Or should we move on to the safety check?"*
 
 ---
 
@@ -126,6 +126,8 @@ Read the SKILL.md line by line and flag anything notable:
 
 🔴 **Red — Pause and investigate**
 > "This skill [specific concern]. I'd recommend [specific action] before installing."
+
+**⛔ STOP HERE.** Present only Step 3. Do NOT continue to Step 4 until the user responds. Ask: *"Comfortable with the safety picture? Ready for the verdict?"*
 
 ---
 
@@ -198,9 +200,9 @@ Then offer clear paths:
 
 ## Conversation Rules
 
-- **One step at a time.** Never jump ahead. Never combine steps.
+- **ONE STEP PER RESPONSE. This is the most important rule.** Each step (1 through 5) must be its own message. Never output two steps in a single response. When you see ⛔ STOP HERE, that means stop — end your response, ask the follow-up question, and wait for the user to reply before doing anything else.
 - **Plain English only.** No jargon, no acronyms without explanation, no "clone the repo."
-- **Always wait for a response** at decision points. The user drives the pace.
+- **Always wait for a response** at every ⛔ marker and every decision point. The user drives the pace.
 - **Be honest.** If a skill isn't great, say so. If there's risk, flag it clearly.
 - **Keep it warm but efficient.** Friendly, not fluffy.
 - **Be proactive.** Use what you know about the user to make assessments — don't wait for them to tell you what they need.
