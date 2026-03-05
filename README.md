@@ -1,4 +1,4 @@
-# skill-evaluator: Should I Install This? 🤔
+# skill-evaluator: Should I Install This Skill? 🤔
 
 I have 44 skills in my Claude Code setup. Meeting notes, content drafts, travel perks, PM frameworks. I built most of them myself.
 
@@ -36,7 +36,9 @@ I expected this to help me decide what to install. Instead, it mostly helped me 
 
 👉 Real example: I found a PM repo with a meeting notes skill. I already had my own. Instead of installing a second one, the comparison showed me 3 features theirs did better (tracking participants, logging disagreements, auto-saving to a file). So I just bolted those onto mine. One skill, now better. Zero clutter.
 
-💡 That's the mentality. Don't collect more tools. Study what others build, steal what works, sharpen what you already have. Kaizen for your AI toolkit ✨
+💡 That's the mentality. Don't collect more tools. Study what others build, steal what works, sharpen what you already have. 
+
+Kaizen for your AI toolkit 🌸
 
 ## Install
 
