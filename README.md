@@ -1,20 +1,12 @@
-# skill-evaluator: Should I Install This Skill? 🤔
+# do-i-need-this: Should I Install This? 🤔
 
 I have 44 skills in my Claude Code setup. Meeting notes, content drafts, travel perks, PM frameworks. I built most of them myself.
 
-The problem? Every week someone on X posts a new skill repo with a hundred stars and I feel the pull. *Maybe this one is the thing I've been missing.* So I'd install it, forget about it, and move on to the next one. 
+The problem? Every week someone on X posts a new skill repo with a hundred stars and I feel the pull. *Maybe this one is the thing I've been missing.* So I'd install it, forget about it, and move on to the next one. Classic FOMO. 😅
 
-Classic FOMO. 😅
+Truth is, at some point I stopped and asked myself... is any of this actually making me better? Honest answer? I had no idea.
 
-Truth is, at some point I stopped and asked myself... is any of this actually making me better? 
-
-Honest answer? I had no idea.
-
-So I built a skill that evaluates other skills before I install them. 
-
-You paste a link and it walks you through everything: what the skill does, whether it's relevant to you, whether it's safe, and whether it's actually worth keeping. 
-
-**No code, no technical knowledge.** Just follow along.
+So I built a skill that evaluates other skills before I install them. You paste a link and it walks you through everything: what the skill does, whether it's relevant to you, whether it's safe, and whether it's actually worth keeping. **No code, no technical knowledge.** Just follow along.
 
 ## How it works
 
@@ -22,41 +14,35 @@ You paste a link and it walks you through everything: what the skill does, wheth
 
 | | Step | What happens |
 |---|---|---|
-| 1️⃣ | **Understand** | Your AI agent fetches the skill based on the URL you provided and then gives you a plain-English summary. But here's the key: it doesn't just tell you *what* the skill does. It tells you if it matters to *you*, based on your workflow and what you already have |
-| 2️⃣ | **Compare & Upgrade** | This one changed everything for me 🔥 If you already have something similar, it compares them side by side and shows you what to steal from the new one to make yours better. Overlap isn't a blocker, it's an upskill opportunity (pun-intended) |
-| 3️⃣ | **Trust Check** | Especially if you're on a work laptop. Does this skill run shell commands? Touch sensitive files? You get a simple green/yellow/red rating. No guessing |
+| 1️⃣ | **Understand** | Fetches the skill and gives you a plain-English summary. But here's the key: it doesn't just tell you *what* the skill does. It tells you if it matters to *you*, based on your workflow and what you already have |
+| 2️⃣ | **Compare & Upgrade** | This one changed everything for me 🔥 If you already have something similar, it compares them side by side and shows you what to steal from the new one to make yours better. Overlap isn't a blocker, it's an upgrade opportunity |
+| 3️⃣ | **Trust Check** | Especially if you're on a work laptop! Does this skill run shell commands? Touch sensitive files? You get a simple green/yellow/red rating. No guessing |
 | 4️⃣ | **Decide & Act** | Scorecard + clear paths: install it all, cherry-pick the good stuff, or skip guilt-free |
 | 5️⃣ | **Test Drive** | You immediately run the skill on something real. A 5-minute exercise, not a full project. This is what keeps skills from becoming shelfware |
 
 ## Why I built this
 
-When I set out to build this skill, I expected it to help me decide what to install. Instead, it mostly helped me sharpen what I already had. The overlapping skills were the most valuable! Not because I installed them, but because I was able to learn from them.
+So... **most of the value came from Step 2, not Step 4.**
 
-👉 Real example: 
+I expected this to help me decide what to install. Instead, it mostly helped me sharpen what I already had. The overlapping skills were the most valuable! Not because I installed them, but because I learned from them.
 
-I found a PM repo with a meeting notes skill. I already had my own. Instead of installing a second one, the comparison showed me 3 features theirs did better (i.e., tracking participants, logging disagreements, auto-saving to a file). 
+👉 Real example: I found a PM repo with a meeting notes skill. I already had my own. Instead of installing a second one, the comparison showed me 3 features theirs did better (tracking participants, logging disagreements, auto-saving to a file). So I just bolted those onto mine. One skill, now better. Zero clutter.
 
-So I just bolted those onto mine. 
-
-One skill, now better. Zero clutter.
-
-Mindset shift: Don't collect 1,000+ skills. Aim for fewer skills, but make each of them 100x more valuable. 
-
-Study what others build, borrow what works, sharpen what you already have. It's all about "Kaizen" 🧘
+💡 That's the mentality. Don't collect more tools. Study what others build, steal what works, sharpen what you already have. Kaizen for your AI toolkit ✨
 
 ## Install
 
 ### Claude Code
 
 ```bash
-mkdir -p ~/.claude/skills/skill-evaluator
-curl -o ~/.claude/skills/skill-evaluator/SKILL.md \
-  https://raw.githubusercontent.com/lisaqiyali-0105/skill-evaluator/main/SKILL.md
+mkdir -p ~/.claude/skills/do-i-need-this
+curl -o ~/.claude/skills/do-i-need-this/SKILL.md \
+  https://raw.githubusercontent.com/lisaqiyali-0105/do-i-need-this/main/SKILL.md
 ```
 
 ### Cursor
 
-Copy `SKILL.md` to `.cursor/skills/skill-evaluator/SKILL.md` in your project.
+Copy `SKILL.md` to `.cursor/skills/do-i-need-this/SKILL.md` in your project.
 
 ### Other AI assistants
 

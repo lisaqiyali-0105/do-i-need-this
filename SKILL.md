@@ -1,9 +1,9 @@
 ---
-name: skill-evaluator
-description: Use when the user shares a link to a skill, plugin, or GitHub repo they found online and wants to figure out if it's worth installing. Guides them through understanding, evaluating, and deciding — no technical knowledge required. Triggers on phrases like "should I install this?", "what does this skill do?", "I found this repo", or any pasted GitHub/marketplace link with a question about it.
+name: do-i-need-this
+description: Use when the user shares a link to a skill, plugin, or GitHub repo they found online and wants to figure out if it's worth installing. Guides them through understanding, evaluating, and deciding, no technical knowledge required. Triggers on phrases like "do I need this skill?", "do I need this?", "should I install this?", "what does this skill do?", "I found this repo", "evaluate this skill", or any pasted GitHub/marketplace link with a question about it.
 ---
 
-# /skill-evaluator — Should I Install This?
+# /do-i-need-this — Should I Install This?
 
 ## What This Is
 
