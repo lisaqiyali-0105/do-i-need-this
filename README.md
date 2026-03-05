@@ -2,11 +2,17 @@
 
 I have 44 skills in my Claude Code setup. Meeting notes, content drafts, travel perks, PM frameworks. I built most of them myself.
 
-The problem? Every week someone on X posts a new skill repo with a hundred stars and I feel the pull. *Maybe this one is the thing I've been missing.* So I'd install it, forget about it, and move on to the next one. Classic FOMO. 😅
+The problem? Every week someone on X posts a new skill repo with a hundred stars and I feel the pull. *Maybe this one is the thing I've been missing.* So I'd install it, forget about it, and move on to the next one. 
 
-Truth is, at some point I stopped and asked myself... is any of this actually making me better? Honest answer? I had no idea.
+Classic FOMO. 😅
 
-So I built a skill that evaluates other skills before I install them. You paste a link and it walks you through everything: what the skill does, whether it's relevant to you, whether it's safe, and whether it's actually worth keeping. **No code, no technical knowledge.** Just follow along.
+Truth is, at some point I stopped and asked myself... is any of this actually making me better? 
+
+Honest answer? I had no idea.
+
+So I built a skill that evaluates other skills before I install them. 
+
+You paste a link and it walks you through everything: what the skill does, whether it's relevant to you, whether it's safe, and whether it's actually worth keeping. **No code, no technical knowledge.** Just follow along.
 
 ## How it works
 
